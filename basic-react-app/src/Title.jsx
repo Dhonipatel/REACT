@@ -1,5 +1,14 @@
 function Title() {
-  return <h1>I am Title</h1>
+    let name = "dhoni";
+  return(
+    <div>
+        <p>2 * 2 = {2 * 2}</p>
+        <p>Hi, {name.toUpperCase()}</p>
+
+    </div>
+
+  );
+   
 }
 
 export default Title;
