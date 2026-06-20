@@ -1,14 +1,17 @@
-import"./App.css"
+import"./App.css";
+import Title from "./Title.jsx";
 
-function Title() {
-  return <h1>I am Title</h1>
+
+
+function Discription(){
+  return <h3>I am The Discription</h3>;
 }
 
 function App() {
   return (
       <div>
-        <h1>This is my app component</h1>
-        <p>inside app component we have :</p>
+    <Title/>
+    <Discription/>
     <Title/>
   </div> 
 
