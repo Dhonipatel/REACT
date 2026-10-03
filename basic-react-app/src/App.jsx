@@ -4,18 +4,14 @@ import Product from "./Product.jsx";
 import ProductTab from"./ProductTab.jsx";
 
 
-
+import ProductTab from "./ProductTab.jsx";
 
 function App() {
   return (
-   <>
-    
-    <ProductTab/>
-   
-  </> 
-
+    <ProductTab />
   );
 }
 
-export default App
+export default App;
+
  
